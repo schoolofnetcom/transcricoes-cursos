@@ -78,4 +78,4 @@ Apesar de ser mais vantajoso utilizar o **Docker** não quer dizer que não prec
 
 Neste eBook encontrará um conteúdo bem técnico, mas caso queira se aprofundar no assunto é muito válido e indicado a leitura do mesmo.
 
-[eBook](https://goto.docker.com/docker-for-the-virtualization-admin.html)
+[![Docker eBook](./images/button-ebook.png "eBook Docker")](https://goto.docker.com/docker-for-the-virtualization-admin.html)
