@@ -56,13 +56,26 @@ Máquinas virtuais | Containers
 ------------ | -------------
 ![Image of VM e Containers](./images/vm-struture.png "VM e Containers") | ![Image of VM e Containers](./images/docker-struture.png "VM e Containers")
 
-
-![Image of VM e Containers](./images/docker-vm.png "VM e Containers")
-
 #### Máquinas Virtuais
 Podemos ver que quando utilizamos máquinas virtuais precisamos da instalação **completa** de um sistema operacional para cada aplicação em desenvolvimento, gerenciadas através do **HYPERVISOR** responsável pela virtualização de suas diversas máquinas.
 
 Este processo utiliza muito espaço em seu disco local e exige muito de sua máquina principal porque está rodando um sistema operacional em cima de outro.
 
 #### Containers
-Com **Docker** associado com **containers** tudo fica mais simples e fácil. O gerenciador de ambiente de desenvolvimento deixa de ser o _HYPERVISOR_ e passa a ser o **_DOCKER ENGINE_** que não utiliza espaço nenhum a mais em sua máquina, pois ele utiliza o próprio sistema operacional da máquina principal sem virtualização nenhuma. E em ambos os processos conseguimos ter o mesmo ambiente de desenvolvimento. **Não é maravilhoso utilizar o Docker?**
+Com **Docker** utilizando **containers** tudo fica mais simples e fácil.
+
+O gerenciador de ambiente de desenvolvimento deixa de ser o _HYPERVISOR_ e passa a ser o **_DOCKER ENGINE_** que não utiliza espaço nenhum a mais em sua máquina, pois ele utiliza o próprio sistema operacional da máquina principal sem virtualização nenhuma. E em ambos os processos conseguimos ter o mesmo ambiente de desenvolvimento. **Não é maravilhoso utilizar o Docker?**
+
+**Resumo:** Conseguimos criar uma infinidade de containers dentro de uma mesma máquina compartilhando dados entre eles e ainda de uma forma extremamente leve e segura utilizando **containers**.
+
+#### Objetivo da Aula
+
+O nosso objetivo principal nesta aula é mostra, a você aluno, a **diferença** que existe entre **máquinas virtuais** e **containers**.
+
+Apesar de ser mais vantajoso utilizar o **Docker** não quer dizer que não precise utilizar mais as **máquinas virtuais**, mas agora você pode adequar seus projetosde acordo com suas necessidades e recursos.
+
+#### Aprofundamento
+
+Neste eBook encontrará um conteúdo bem técnico, mas caso queira se aprofundar no assunto é muito válido e indicado a leitura do mesmo.
+
+[eBook](https://goto.docker.com/docker-for-the-virtualization-admin.html)
