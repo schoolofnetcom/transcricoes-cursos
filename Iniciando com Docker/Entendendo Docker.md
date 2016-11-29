@@ -1,4 +1,4 @@
-# O que é Docker
+# O que é Docker?
 
 Podemos utilizar o logo do Docker para fazermos uma analogia e facilitar o entendimento da ferramenta, assim fica mais fácil de descobrir o real objetivo da mesma.
 
@@ -6,21 +6,21 @@ Podemos utilizar o logo do Docker para fazermos uma analogia e facilitar o enten
 
 ### Docker Engine
 
-Análogamente a `baleia` seria uma pré-configuração ou a base de um ambiente de desenvolvimento que você pode levar para qualquer projeto e é conhecido também como `Docker Engine`.
+Análogamente a **baleia** seria uma pré-configuração ou a base de um ambiente de desenvolvimento que você pode levar para qualquer projeto e é conhecido também como **Docker Engine**.
 
  Isso significar que todos os membros da equipe teriam o mesmo padrão e os mesmos recursos, facilitando assim o desenvolvimento e evitando erros de diferentes sistemas operacionais.
 
 ### Containers
 
-As `caixas` ou `container` em cima da `baleia` seriam fragmentos ou instâncias necessários para o desenvolvimento do projeto.
+As **caixas** ou **container** em cima da **baleia** seriam fragmentos ou instâncias necessárias para o desenvolvimento do projeto.
 
 **_Exemplos_**
 
-1. Mysql
-2. Apache/Nginx
-3. PHP-FPM
-4. Redis
-5. ELASTICSEARCH
+** 1. _Mysql_ **
+** 2. _Apache/Nginx_ **
+** 3. _PHP-FPM_ **
+** 4. _Redis_ **
+** 5. _ELASTICSEARCH_ **
 
 Estes containers rodam de forma isolada, mas podem ter uma comunicação entre eles.
 
