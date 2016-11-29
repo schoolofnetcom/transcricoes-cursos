@@ -54,8 +54,7 @@ Você ficará maravilhado em saber o quanto é simples fazer tudo isso e vai que
 
 Máquinas virtuais | Containers
 ------------ | -------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
+![Image of VM e Containers](./images/docker-vm.png "VM e Containers") | ![Image of VM e Containers](./images/docker-vm.png "VM e Containers")
 
 
 ![Image of VM e Containers](./images/docker-vm.png "VM e Containers")
