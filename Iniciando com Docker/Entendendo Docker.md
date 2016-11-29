@@ -52,8 +52,9 @@ Você ficará maravilhado em saber o quanto é simples fazer tudo isso e vai que
 
 ### Diferença entre Máquinas Virtuais e Containers com Docker Engine
 
-Máquinas virtuais | Containers
+    Máquinas virtuais |     Containers
 ------------ | -------------
+
 ![Image of VM e Containers](./images/vm-struture.png "VM e Containers") | ![Image of VM e Containers](./images/docker-struture.png "VM e Containers")
 
 
