@@ -54,7 +54,7 @@ Você ficará maravilhado em saber o quanto é simples fazer tudo isso e vai que
 
 Máquinas virtuais | Containers
 ------------ | -------------
-![Image of VM e Containers](./images/docker-vm.png "VM e Containers") | ![Image of VM e Containers](./images/docker-vm.png "VM e Containers")
+![Image of VM e Containers](./images/vm-struture.png "VM e Containers") | ![Image of VM e Containers](./images/docker-struture.png "VM e Containers")
 
 
 ![Image of VM e Containers](./images/docker-vm.png "VM e Containers")
