@@ -2,7 +2,7 @@
 
 Podemos utilizar o logo do Docker para fazermos uma analogia e facilitar o entendimento da ferramenta, assim fica mais fácil de descobrir o real objetivo da mesma.
 
-![Image of Docker](/images/docker-logo.jpg "Docker Logo")
+![Image of Docker](./images/docker-logo.jpg "Docker Logo")
 
 ### Docker Engine
 
@@ -30,5 +30,5 @@ Vale a pena ressaltar que não existe um limite de containers para serem adicion
 
 **__Veja um exemplo abaixo:__**
 
-![Image of Docker Engine Example](/images/docker-engine-example.jpg "Docker Engine Example")
+![Image of Docker Engine Example](./images/docker-engine-example.png "Docker Engine Example")
 
