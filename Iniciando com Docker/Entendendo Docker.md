@@ -16,11 +16,11 @@ As **caixas** ou **container** em cima da **baleia** seriam fragmentos ou instâ
 
 **_Exemplos_**
 
-** 1. _Mysql_ **
-** 2. _Apache/Nginx_ **
-** 3. _PHP-FPM_ **
-** 4. _Redis_ **
-** 5. _ELASTICSEARCH_ **
+1. _Mysql_
+2. _Apache/Nginx_
+3. _PHP-FPM_
+4. _Redis_
+5. _ELASTICSEARCH_
 
 Estes containers rodam de forma isolada, mas podem ter uma comunicação entre eles.
 
