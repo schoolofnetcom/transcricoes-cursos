@@ -26,13 +26,13 @@ Estes containers rodam de forma isolada, mas podem ter uma comunicação entre e
 
 O mais interessante é que estes containers possuem **somente** o necessário para serem rodados. Em outras palavras somentes pedaços de códigos extremamente necessários para o funcionamento correto dos mesmos.
 
-Vale a pena ressaltar que não existe um limite de containers para serem adicionados em sua `Docker Engine`, pois, como não tem um sistema operacional rodando junto com eles, os containers se tornam muito leves e esta é, sem dúvida, a grande vantagem de utilizar a ferramenta para o desenvolvimento do seu projeto.
+Vale a pena ressaltar que não existe um limite de containers para serem adicionados em sua **Docker Engine**, pois, como não tem um sistema operacional rodando junto com eles, os containers se tornam muito leves e esta é, sem dúvida, a grande vantagem de utilizar a ferramenta para o desenvolvimento do seu projeto.
 
 **_Veja um exemplo abaixo:_**
 
 ![Image of Docker Engine Example](./images/docker-engine-example.png "Docker Engine Example")
 
-Conforme imagem acima, podemos verificar que o sistema possui um `kernel` comum para toda aplicação, mas depois disso eu tenho diversos containers.
+Conforme imagem acima, podemos verificar que o sistema possui um **kernel** comum para toda aplicação, mas depois disso exitem vários containers.
 
 **Exemplos**
 
@@ -42,15 +42,18 @@ Conforme imagem acima, podemos verificar que o sistema possui um `kernel` comum 
 4. Redis
 5. ELASTICSEARCH
 
-O mais interessante, e já foi falado anteriormente, é que o Debian não está instalado como uma máquina virtual com toda a distribuição. Nesta imagem do Debian está somente o que ele necessita para rodar e o que os outros containers, que estão citados, necessitam para se relacionar com com ele. Por este motivo os containers são extremamente leves. **_O desnecessário é descartado. Tudo que for em comum entre as imagens são reapoveitados, sem duplicação de códigos_**.
+O mais interessante, é que o Debian não está instalado como uma máquina virtual sendo um sistema operacional completo. Nesta imagem do Debian está somente o que ele necessita para rodar e o que os outros containers, que estão citados, necessitam para se relacionar com ele. Por este motivo os containers são extremamente leves. **_O desnecessário é descartado._** Tudo que for em comum entre as imagens dos containers serão reapoveitados, sem duplicação de códigos.
 
-Nós podemos criar vários tipos de `Dockers` de acordo com o que precisamos e ir adicionando os containers a eles.
+É possível criar vários tipos de **Dockers** e, de acordo com o que precisarmos, podemos adicionar os containers a eles.
 
-Neste curso iremos aprender a criar containers fácilmente. Vamos aprender também a subir, rapidamente, um ambiente de desenvolvimento.
+Neste curso iremos aprender a criar containers fácilmente. Vamos aprender também a subir, rapidamente, um ambiente de desenvolvimento utilizando o **Docker**.
 
 Você ficará maravilhado em saber o quanto é simples fazer tudo isso e vai querer dar adeus às antigas e trabalhosas práticas de desenvolvimento onde você tinha que ter muito espaço em disco e uma máquina para cada projeto que fosse desenvolver.
 
 ### Diferença entre Máquinas Virtuais e Containers com Docker Engine
+
+Máquinas virtuais | Containers
+------------ | -------------
 
 ![Image of VM e Containers](./images/docker-vm.png "VM e Containers")
 
