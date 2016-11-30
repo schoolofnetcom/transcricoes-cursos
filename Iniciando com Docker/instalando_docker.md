@@ -12,7 +12,7 @@ Neste curso não iremos focar na instalação do Docker para Linux, porque realm
 
 ***
 
-## Por que focar em MAC e WINDOWS?
+# Por que focar em MAC e WINDOWS?
 
 Porque tanto no MAC quanto no WINDOWS, durante a instalação, o Docker não consegue rodar diretamente para criar os seus **containers**.
 
@@ -22,7 +22,7 @@ Por este motivo é necessário fazermos uma **_adaptação_** para conseguirmos 
 
 ***
 
-## Docker no Windows
+# Docker no Windows
 
 A adaptação citada acima será rodar o Docker em cima de uma _máquina virtual_. Isso significa que não rodaremos o Docker dentro do Windows diretamente, mas sim dentro de uma **_máquina virtual Linux_** que estará **_dentro do Windows_**.
 
@@ -56,7 +56,7 @@ No terminal, após inicialização do Docker, ele mostrará o símbolo do Docker
 
 ***
 
-## Docker no MAC
+# Docker no MAC
 
 Do mesmo modo que no Windows o Docker terá que rodar em cima de uma máquina virtual. Isso significa que não rodaremos o Docker dentro do MAC diretamente, mas sim dentro de uma máquina virtual Linux que estará dentro do MAC.
 
@@ -87,7 +87,11 @@ No terminal, após inicialização do Docker, ele mostrará o símbolo do Docker
 # Imagens
 
 ## Arquivos criados após instalação do **Docker Toolbox**
+
 ![Docker Toolbox](./images/docker-quickstart-terminal.png "Docker Toolbox")
 
+***
+
 ## Docker rodando depois da instalação e execução do **Docker Quickstart Terminal**
+
 ![Docker-VirtualBox](./images/docker-virtualbox.png "Docker-VirtualBox")
