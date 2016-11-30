@@ -10,6 +10,8 @@ Para iniciarmos com a instalação do Docker podemos ir até o link https://www.
 
 Neste curso não iremos focar na instalação do Docker para Linux, porque realmente é muito simples sem nenhuma complicação. Iremos focar na instalação para **MAC** e **WINDOWS**.
 
+***
+
 ## Por que focar em MAC e WINDOWS?
 
 Porque tanto no MAC quanto no WINDOWS, durante a instalação, o Docker não consegue rodar diretamente para criar os seus **containers**.
@@ -17,6 +19,8 @@ Porque tanto no MAC quanto no WINDOWS, durante a instalação, o Docker não con
 No caso do Windows algumas versões não possuem o **Hyper-V** citado acima.
 
 Por este motivo é necessário fazermos uma **_adaptação_** para conseguirmos rodar o Docker nestes sistemas operacionais de forma correta.
+
+***
 
 ## Docker no Windows
 
@@ -49,6 +53,8 @@ Dentro da pasta de **programas** será criada uma pasta chamada **Docker** com d
 Mais tarde falaremos deste arquivo _Kitematic_, porém basta dar dois cliques no Docker Quickstart Terminal para darmos início ao processo e ter o Docker rodando.
 
 No terminal, após inicialização do Docker, ele mostrará o símbolo do Docker e também mostrará o IP da máquina criada, caso o processo tenha sido concluído corretamente. Porém caso siga todos os passos corretos de instalação não terá problema algum.
+
+***
 
 ## Docker no MAC
 
