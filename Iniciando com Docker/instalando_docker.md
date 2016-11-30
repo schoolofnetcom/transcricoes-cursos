@@ -52,6 +52,10 @@ No terminal, após inicialização do Docker, ele mostrará o símbolo do Docker
 
 #### Docker no MAC
 
+Do mesmo modo que no Windows o Docker terá que rodar em cima de uma máquina virtual. Isso significa que não rodaremos o Docker dentro do MAC diretamente, mas sim dentro de uma máquina virtual Linux que estará dentro do MAC.
+
+Teremos então que ter uma camada a mais para que o Docker consiga rodar no MAC. Isso somente em ambiente de desenvolvimento, porque quando subir para produção o servidor será Linux e não terá que fazer esta adaptação.
+
 **PASSOS:**
 
 1. Faça o download do Docker no link: https://www.docker.com/products/overview
@@ -79,4 +83,3 @@ Arquivos criados após instalação do **Docker Toolbox**
 
 Docker rodando depois da instalação e execução do **Docker Quickstart Terminal**
 ![Docker-VirtualBox](./images/docker-virtualbox.png "Docker-VirtualBox")
-
