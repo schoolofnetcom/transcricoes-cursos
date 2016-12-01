@@ -46,6 +46,24 @@ Quando rodamos este comando o Docker da uma mensagem de que não foi possível e
 
 Caso rode novamente o mesmo comando o Docker nos mostrará diretamente a imagem **Hello World** porque já foi baixada anteriormente e agora ele encontra ela localmente.
 
-Caso queira saber quais imagens você já possui localmente basta rodas o comando `$ docker imagens` e terá o seguinte resultado:
+Caso queira saber quais imagens você já possui localmente basta rodar o comando `$ docker images` e terá o seguinte resultado:
 
 ![Docker Images](./images/docker-images.png "Docker Imagens")
+
+***
+
+## Docker PS
+
+Existe um comando muito utilizado e que nós utilizaremos muito que é o `$ docker ps`:
+
+![Docker ps](./images/docker-ps.png "Docker ps")
+
+Este comando é responsável por retornar todos os **container** rodando em nosso Docker. Olha só que comando importante para nós que iremos trabalhar diretamente com os _containers_.
+
+Na imagem acima você pode verificar que não existe nenhum container listado, porque ainda não ativamos nenhum.
+
+Para visualizar containers que existem, mas não estão rodando basta utilizar o seguite comando: `$ docker ps -a`
+
+![Docker ps -a](./images/docker-ps-a.png "Docker ps -a")
+
+Agora pode verificar que foram criados os containers automaticamente, porém eles não estão rodando.
