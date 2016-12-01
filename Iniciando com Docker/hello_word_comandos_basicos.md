@@ -92,10 +92,10 @@ Caso você queira remover algum container basta utilizar o comando `$ docker rm 
 
 Comando | Função
 ------------ | ------------
-`$ docker` | Lista todos os comandos
-`$ docker version` | Mostra informações de versão **Client** e **Server**
-`$ docker run hello-world` | Roda uma determinada **imagem**. Caso não exista localmente, mas exista no repositório do Docker esta imagem será baixada automaticamente.
-`$ docker images` | Lista todas as imagens locais
-`$ docker ps` | Lista todos os containers em execução
-`$ docker ps -a` | Lista todos os containers existentes independente se está em execução ou não
-`$ docker rm ID` | Remove um container existente, basta informar o nome ou ID no comando
+`$ docker` | Listar todos os comandos
+`$ docker version` | Mostrar informações de versão **Client** e **Server**
+`$ docker run hello-world` | Rodar uma determinada imagem
+`$ docker images` | Listar todas as imagens locais
+`$ docker ps` | Listar todos os containers em execução
+`$ docker ps -a` | Listar todos os containers existentes independente se está em execução ou não
+`$ docker rm ID` | Remover um container existente, basta informar o nome ou ID no comando
