@@ -58,12 +58,44 @@ Existe um comando muito utilizado e que nós utilizaremos muito que é o `$ dock
 
 ![Docker ps](./images/docker-ps.png "Docker ps")
 
-Este comando é responsável por retornar todos os **container** rodando em nosso Docker. Olha só que comando importante para nós que iremos trabalhar diretamente com os _containers_.
+Este comando é responsável por retornar todos os **containers** que estão rodando em nosso Docker. Olha só que comando importante para nós que iremos trabalhar diretamente com os _containers_.
 
 Na imagem acima você pode verificar que não existe nenhum container listado, porque ainda não ativamos nenhum.
 
-Para visualizar containers que existem, mas não estão rodando basta utilizar o seguite comando: `$ docker ps -a`
+Para visualizar todos os containers existentes, inclusive os que não estão rodando basta utilizar o seguite comando: `$ docker ps -a`
 
 ![Docker ps -a](./images/docker-ps-a.png "Docker ps -a")
 
 Agora pode verificar que foram criados os containers automaticamente, porém eles não estão rodando.
+
+Analisando a listagem de containers podemos verificar que eles possuem as seguintes informações:
+
+1. **Names:** Como não setamos nenhum nome às _imagens_ o Docker pega automaticamente o ID da imagem.
+2. **Image:** Significa que foi baseado na imagem _hello-world_.
+3. **Command:** Informa o comando que foi rodado pelo Docker internamente.
+4. **Created:** Informa a data de criação.
+5. **Status:** Informa quando este comando foi rodado.
+
+Existem outros dados que a listagem trás, mas estas são as mais relevantes.
+
+Cada vez que rodarmos um `$ docker run hello-world` um container será criado e listado no comando `$ docker ps -a`, pois o Docker vai salvando os registro e ocorrências.
+
+Caso você queira remover algum container basta utilizar o comando `$ docker rm ID`. No lugar do ID você copia o ID que foi listado no comando anterior e substitui.
+
+**Exemplo**
+
+`$ docker rm 2b8d85aa21d6` - Estou utilizando um ID da imagem acima. Depois que eu rodar este comando ela não será mais listada, pois será removida.
+
+***
+
+# Lista de Comandos desta aula
+
+Comando | Função
+------------ | ------------
+`$ docker` | Lista todos os comandos
+`$ docker version` | Mostra informações de versão **Client** e **Server**
+`$ docker run hello-world` | Roda uma determinada **imagem**. Caso não exista localmente, mas exista no repositório do Docker esta imagem será baixada automaticamente.
+`$ docker images` | Lista todas as imagens locais
+`$ docker ps` | Lista todos os containers em execução
+`$ docker ps -a` | Lista todos os containers existentes independente se está em execução ou não
+`$ docker rm ID` | Remove um container existente, basta informar o nome ou ID no comando
