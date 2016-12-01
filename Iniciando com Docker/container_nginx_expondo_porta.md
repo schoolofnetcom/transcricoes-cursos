@@ -31,6 +31,36 @@ Para pararmos o processo de um determinado container basta rodar o comando `$ do
 
 ![Docker run stop](./images/docker-run-stop.png "Docker run stop")
 
+***
+
+# Rodar container nginx sem travar o terminal
+
+Basta acrescentarmos **-d** ao comando **run**.
+
+**Exemplo:** `$ docker run -d nginx`
+
+Desta forma ele irá rodar nosso container em **background** e eu terei meu terminal livre pra continuar trabalhando. Assim não precisamos abrir outro terminal ou matar o processo no terminal atual.
+
+***
+
+# Acessando Nginx via terminal
+
+O comando `$ docker ps` nos mostra os containers que estão rodando e também as portas disponíveis para acessá-los.
+
+![Docker posts](./images/docker-ports.png "Docker ports")
+
+Se você estiver utilizando o Windows, Mac ou Linux de forma nativa com **HYPER-V**, por exemplo, você não irá precisar descobrir o IP da máquina virtual porque o Docker estará rodando em sua própria máquina então poderá acessar o seu browser diretamente.
+
+Porém como em nosso caso, estamos utilizando uma máquina virtual para rodar o Docker precisaremos descobrir o IP desta máquina virtual para conseguirmos acessar as portas. E existem duas formas para isso:
+
+1. Logo que abrimos o terminal do Docker o IP é mostrado.
+2. Podemos rodar o comando `$ docker-machine ls`
+
+![Docker Machine IP](./images/docker-machine-ip.png "Docker Machine IP")
+
+
+
+
 
 
 
