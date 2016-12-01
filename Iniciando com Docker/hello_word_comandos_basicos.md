@@ -21,6 +21,23 @@ No terminal digite `$ docker` e já terá uma lista de comandos disponíveis. S�
 
 Portanto iremos lhe passar o necessário para que possa trabalhar com o Docker no seu dia-a-dia de desenvolvimento tranquilamente.
 
-Próximo comando na sequência seria o `$ docker version` que trará os seguintes dados:
+Próximo comando que sugerimos na sequência seria o `$ docker version` que trará os seguintes dados:
 
 ![Docker Version](./images/docker-version-command.png "Docker Version Command")
+
+Se analisarmos a imagem acima veremos que possuem duas informações importantes para `$ docker version`.
+
+1. Client
+2. Server
+
+**Client:** São os dados de onde estamos rodando os comandos
+**Server:** São os dados de onde o Docker irá acessar a **_Docker Engine_** , os **_containers_** e de onde vai rodar todas as aplicações.
+
+***
+
+Um comando bem comum para iniciarmos também e que serve como teste para ver se o nosso Docker está rodando certinho é o `$ docker run hello-world`.
+
+Este comando solicita que o Docker rode a **imagem hello-world**. Em breve falaremos mais sobre _imagens_, mas já adiantando **imagem** é como se fosse um **snapshot** de uma aplicação, máquina ou configurações. E no caso deste comando será realmente um Hello World somente para testar nosso Docker.
+
+![Docker Hello World](./images/docker-hello-world.png "Hello World")
+
