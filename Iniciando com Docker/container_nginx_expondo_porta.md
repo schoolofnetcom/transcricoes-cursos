@@ -104,6 +104,6 @@ Entre outros comandos que já tínhamos visto anteriormente e fixamos um pouco m
 
 ***
 Anterior | Próximo
----------: | :---------
+
 [Hello Word e Comandos Básicos](./hello_word_comandos_basicos.md) | [Hello Word e Comandos Básicos](./hello_word_comandos_basicos.md)
 
