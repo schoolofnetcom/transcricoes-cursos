@@ -89,3 +89,20 @@ Basta incluir o parâmetro **--name** ao rodar o comando **run**.
 **Exemplo:** `$ docker run -d -p 8080:80 --name webserver nginx`
 
 ![Docker nomeando container](./images/docker-name-container.png "Docker nomeando container")
+
+***
+
+# O que aprendemos nesta aula?
+
+1. Pesquisar as imagens disponíveis no Docker Hub.
+2. Rodar um container em background para não travar o terminal
+3. Descobrir IP da máquina virtual caso estejamos utilizando o Docker Toolbox para rodar o Docker
+4. Liberar a porta da máquina principal para acessar a porta liberada pelo nosso container
+5. Nomear nossos containers para melhor controle e organização
+
+Entre outros comandos que já tínhamos visto anteriormente e fixamos um pouco mais nesta aula.
+
+***
+
+[Hello Word e Comandos Básicos](./hello_word_comandos_basicos.md)
+
