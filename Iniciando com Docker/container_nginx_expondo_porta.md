@@ -58,7 +58,21 @@ Porém como em nosso caso, estamos utilizando uma máquina virtual para rodar o 
 
 ![Docker Machine IP](./images/docker-machine-ip.png "Docker Machine IP")
 
+Agora que já sabe como descobrir o IP da sua máquina basta tentar acessar via browser pra saber se o **Nginx** está realmente rodando e funcionando. **Exemplo:** _http://192.168.99.100:80_
 
+Sinto lhe informar, mas apesar de estar rodando e sabermos que está rodando de acordo com nosso comando `$ docker ps` a porta só está liberada em nossa máquina virtual. Precisamos agora apontar uma porta da nossa máquina para esta porta da nossa máquina virtual, para conseguirmos finalmente fazer funcionar corretamente.
+
+Precisamos seguir os passos abaixo:
+
+1. Parar o container atual com o comando: `$ docker stop 59c7c4cf06d1`
+2. Remover este container com o comando: `$ docker rm 59c7c4cf06d1`
+3. Subir novamente o container com o comando: `$ docker run -d -p 8080:80 nginx`
+
+Então isso significar que atribuimos a porta 8080 da **nossa máquina** para a porta **80** da nossa máquina virtual.
+
+Veja a imagem do processo completo:
+
+![Docker Expondo Porta](./images/docker-expondo-porta.png "Docker Expondo Porta")
 
 
 
