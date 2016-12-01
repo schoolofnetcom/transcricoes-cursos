@@ -68,15 +68,24 @@ Precisamos seguir os passos abaixo:
 2. Remover este container com o comando: `$ docker rm 59c7c4cf06d1`
 3. Subir novamente o container com o comando: `$ docker run -d -p 8080:80 nginx`
 
-Então isso significar que atribuimos a porta 8080 da **nossa máquina** para a porta **80** da nossa máquina virtual.
+Então isso significa que estamos atribuindo a porta 8080 da **nossa máquina** para a porta **80** da nossa máquina virtual.
 
 Veja a imagem do processo completo:
 
 ![Docker Expondo Porta](./images/docker-expondo-porta.png "Docker Expondo Porta")
 
+Agora sim podemos acessar o browser novamente com o endereço **_http://192.168.99.100:8080/_** que teremos o nosso container **nginx** funcionando corretamente.
 
+***
 
+# Nomeando Containers
 
+Já deve ter visto que o Docker cria nomes horríveis e estranhos para os containers quando não passamos nenhum parâmetro informando o nome que queremos. Podemos melhorar isto também, para que possamos trabalhar de forma mais organizada e não ter que ficar pesquisando toda hora o nome ou o ID do nosso container para poder rodar **stop, start, rm** entre outros comando do Docker que precisam do parâmetro **nome ou ID**.
 
+Se eu sei o nome que dei ao container tudo fica mais fácil na hora de subir, parar ou excluir o mesmo.
 
+Basta incluir o parâmetro **--name** ao rodar o comando **run**.
 
+**Exemplo:** `$ docker run -d -p 8080:80 --name webserver nginx`
+
+![Docker nomeando container](./images/docker-name-container.png "Docker nomeando container")
