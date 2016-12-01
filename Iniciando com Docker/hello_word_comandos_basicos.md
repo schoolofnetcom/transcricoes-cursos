@@ -31,6 +31,7 @@ Se analisarmos a imagem acima veremos que possuem duas informações importantes
 2. Server
 
 **Client:** São os dados de onde estamos rodando os comandos
+
 **Server:** São os dados de onde o Docker irá acessar a **_Docker Engine_** , os **_containers_** e de onde vai rodar todas as aplicações.
 
 ***
@@ -41,3 +42,10 @@ Este comando solicita que o Docker rode a **imagem hello-world**. Em breve falar
 
 ![Docker Hello World](./images/docker-hello-world.png "Hello World")
 
+Quando rodamos este comando o Docker da uma mensagem de que não foi possível encontrar a **imagem** localmente, mas ele faz um **download** e nos mostra a mensagem acima no terminal. Após isso sabemos que está tudo ok com nosso Docker e já fizemos a nossa primeira impressão.
+
+Caso rode novamente o mesmo comando o Docker nos mostrará diretamente a imagem **Hello World** porque já foi baixada anteriormente e agora ele encontra ela localmente.
+
+Caso queira saber quais imagens você já possui localmente basta rodas o comando `$ docker imagens` e terá o seguinte resultado:
+
+![Docker Images](./images/docker-images.png "Docker Imagens")
