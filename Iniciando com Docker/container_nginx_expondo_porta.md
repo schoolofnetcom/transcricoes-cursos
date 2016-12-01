@@ -103,6 +103,7 @@ Basta incluir o parâmetro **--name** ao rodar o comando **run**.
 Entre outros comandos que já tínhamos visto anteriormente e fixamos um pouco mais nesta aula.
 
 ***
+Anterior | Próximo
 
-[Hello Word e Comandos Básicos](./hello_word_comandos_basicos.md)
+[Hello Word e Comandos Básicos](./hello_word_comandos_basicos.md) | [Hello Word e Comandos Básicos](./hello_word_comandos_basicos.md)
 
