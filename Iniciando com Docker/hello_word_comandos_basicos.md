@@ -94,7 +94,7 @@ Comando | Função
 ------------ | ------------
 `$ docker` | Listar todos os comandos
 `$ docker version` | Mostrar informações de versão **Client** e **Server**
-`$ docker run hello-world` | Rodar uma determinada imagem
+`$ docker run image_name` | Rodar uma determinada imagem
 `$ docker images` | Listar todas as imagens locais
 `$ docker ps` | Listar todos os containers em execução
 `$ docker ps -a` | Listar todos os containers existentes independente se está em execução ou não
