@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75783365-1e54-448b-a7c5-d18063c7c801" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Iniciando com Docker/6. Trabalhando de forma interativa com exec.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Iniciando com Docker/6. Trabalhando de forma interativa com exec.md" afterPath="$PROJECT_DIR$/Iniciando com Docker/6. Trabalhando de forma interativa com exec.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,8 +24,8 @@
         <entry file="file://$PROJECT_DIR$/Iniciando com Docker/6. Trabalhando de forma interativa com exec.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="669">
-                <caret line="56" column="37" lean-forward="false" selection-start-line="56" selection-start-column="37" selection-end-line="56" selection-end-column="37" />
+              <first_editor relative-caret-position="625">
+                <caret line="58" column="40" lean-forward="false" selection-start-line="58" selection-start-column="40" selection-end-line="58" selection-end-column="40" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -172,12 +172,12 @@
       <option name="presentableId" value="Default" />
       <updated>1480729864020</updated>
       <workItem from="1480729866552" duration="1909000" />
-      <workItem from="1480895051167" duration="2499000" />
+      <workItem from="1480895051167" duration="3351000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4408000" />
+    <option name="totallyTimeSpent" value="5260000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-333" y="-1057" width="1920" height="1057" extended-state="6" />
@@ -236,8 +236,8 @@
     <entry file="file://$PROJECT_DIR$/Iniciando com Docker/6. Trabalhando de forma interativa com exec.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="669">
-            <caret line="56" column="37" lean-forward="false" selection-start-line="56" selection-start-column="37" selection-end-line="56" selection-end-column="37" />
+          <first_editor relative-caret-position="625">
+            <caret line="58" column="40" lean-forward="false" selection-start-line="58" selection-start-column="40" selection-end-line="58" selection-end-column="40" />
             <folding />
           </first_editor>
           <second_editor />
