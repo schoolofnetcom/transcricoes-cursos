@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75783365-1e54-448b-a7c5-d18063c7c801" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Iniciando com Docker/images/docker-list-containers.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Iniciando com Docker/8. Linkando containers na prática com wordpress.md" afterPath="$PROJECT_DIR$/Iniciando com Docker/8. Linkando containers na prática com wordpress.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,8 +50,8 @@
         <entry file="file://$PROJECT_DIR$/Iniciando com Docker/8. Linkando containers na prática com wordpress.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="845">
-                <caret line="85" column="158" lean-forward="false" selection-start-line="85" selection-start-column="158" selection-end-line="85" selection-end-column="158" />
+              <first_editor relative-caret-position="616">
+                <caret line="81" column="121" lean-forward="false" selection-start-line="81" selection-start-column="121" selection-end-line="81" selection-end-column="121" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -204,12 +203,12 @@
       <option name="presentableId" value="Default" />
       <updated>1480729864020</updated>
       <workItem from="1480729866552" duration="1909000" />
-      <workItem from="1480895051167" duration="10745000" />
+      <workItem from="1480895051167" duration="11441000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12654000" />
+    <option name="totallyTimeSpent" value="13350000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-333" y="-1057" width="1920" height="1057" extended-state="6" />
@@ -290,8 +289,8 @@
     <entry file="file://$PROJECT_DIR$/Iniciando com Docker/8. Linkando containers na prática com wordpress.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="845">
-            <caret line="85" column="158" lean-forward="false" selection-start-line="85" selection-start-column="158" selection-end-line="85" selection-end-column="158" />
+          <first_editor relative-caret-position="616">
+            <caret line="81" column="121" lean-forward="false" selection-start-line="81" selection-start-column="121" selection-end-line="81" selection-end-column="121" />
             <folding />
           </first_editor>
           <second_editor />
